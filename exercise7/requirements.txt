@@ -1,0 +1,6 @@
+lorem_text>=2.1
+lxml>=4.9.3
+pytz>=2023.3.post1
+Requests>=2.31.0
+six>=1.16.0
+sqlparse>=0.4.4
