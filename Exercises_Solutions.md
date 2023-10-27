@@ -11,7 +11,7 @@ wget http://linuxctf.ddns.net/
 
 ## 2. Base64 and pipes. (pg. 68)
 
-Entry point: https://drive.proton.me/urls/T034ZTH94R#oVZmVcn177gD
+Entry point: [Exercise 2](exercise2/)
 
 Solution:
 ```
@@ -40,7 +40,7 @@ curl --rate 2/s -i https://linuxctf.ddns.net/{4..71}/ 2>&1 |grep flag
 
 ## 4. runme (pg. 91)
 
-Entry point: https://drive.proton.me/urls/S5Y8ZD0ZMC#mnu0o3VLiXyR
+Entry point: [Exercise 4](exercise4/runme)
 
 Solution:
 ```
@@ -65,7 +65,7 @@ grep -ri flagx linuxctf.ddns.net
 
 ### 6.1. Commands tar and find.
 
-Entry point: https://drive.proton.me/urls/KJW0CY6XG8#HeHKCBETLQAM
+Entry point: [Exercise 6.1](exercise6.1/etc_bck.tgz)
 
 Solution:
 ```
@@ -80,7 +80,7 @@ tar -Oxzf etc_bck.tgz etc_bck/cron.daily/creds/password.txt
 
 ### 6.2. Commands tar & GPG (plus install GPG if necessary)
 
-Entry point: https://drive.proton.me/urls/88EC74QF2W#xpqN3vYIWgta
+Entry point: [Exercise 6.2](exercise6.2/app1_compressed_app.gz)
 
 Solution:
 ```
@@ -97,7 +97,7 @@ gunzip app1_compressed_app.gz; tar -Oxzf app1_compressed_app app/.password | gpg
 
 ## 7. Install python dependencies (pg. 148)
 
-Entry point: https://drive.proton.me/urls/9VNBR2A0G0#R8j8UuIiXhTY
+Entry point: [Exercise 7](exercise7/)
 
 Solution:
 ```
